@@ -1,10 +1,15 @@
-# 🏠 Boston House Price Predictor - Devtown Bootcamp Project
+# 🏠 Boston House Price Predictor
 
-This project uses a Linear Regression model trained on the Boston House Price Dataset to predict prices based on the average number of rooms (RM).
+This project predicts house prices using a Linear Regression model trained on the Boston Housing dataset.
 
-## Files
-- `model_training.ipynb`: Jupyter notebook used to train and save the model.
-- `model.pkl`: Pickled trained model.
-- `app.py`: Flask backend to handle form and prediction.
-- `templates/index.html`: Web interface with form and output.
-- `static/style.css`: Custom CSS styling.
+### 🔧 Technologies Used
+- Python
+- scikit-learn
+- Flask
+- HTML/CSS
+
+### 🚀 How to Run Locally
+
+```bash
+pip install flask scikit-learn
+python app.py
